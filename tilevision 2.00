@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="css/font-awesome.min.css" />  
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+     <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.min.css">
+    <title>Ishaan Tiles</title>
+  </head>
+  <body class="eeditor-body">
+    
+<!--header starts -->
+<section class="header eeditor-header">
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="home.html"><img src="images/logo.png" class="logo" alt="Ishaan Tiles Group"></a>
+   <div class="float-right searchGlobal d-block d-lg-none">
+        <a href="#search" title="Search" class="search-form-tigger" data-toggle="search-form"><img class="search-icon" src="images/search.png" alt="Search for website" /></a>
+   </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mr-auto">
+     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="product.html" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Catalogue
+        </a>
+        <div class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownMenuLink1">
+         <div class="sub-menu-wrap">
+           <a class="nav-link dropdown-toggle" href="https://www.google.com" id="navbarSubMenu1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img src="images/idea.svg" alt="" /> Living Room
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarSubMenu1">
+          <a class="dropdown-item" href="livingroomwall.html">Loiving Room Wall</a>
+          <a class="dropdown-item" href="livingroomfloor.html">Living Room Floor</a>
+        </div>
+      </div>
+       <div class="sub-menu-wrap">
+            <a class="nav-link dropdown-toggle" href="https://www.google.com" id="navbarSubMenu2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <img src="images/bedroom.svg" alt="" /> Bedroom
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarSubMenu2">
+          <a class="dropdown-item" href="bedroomwall.html">Bedroom Wall</a>
+          <a class="dropdown-item" href="bedroomfloor.html">Bedroom Floor</a>
+        </div>
+      </div>
+       <div class="sub-menu-wrap">
+           <a class="nav-link dropdown-toggle" href="product.html" id="navbarSubMenu3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="images/kitchen.svg" alt="" /> Kitchen
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarSubMenu3">
+          <a class="dropdown-item" href="kitchenwall.html">Kitchen Wall</a>
+          <a class="dropdown-item" href="kitchenfloor.html">Kitchen Floor</a>
+        </div>
+      </div>
+       <div class="sub-menu-wrap">
+           <a class="nav-link dropdown-toggle" href="product.html" id="navbarSubMenu4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <img src="images/bathroom.svg" alt="" /> Bathroom
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarSubMenu4">
+          <a class="dropdown-item" href="bathroomwall.html">Bathroom Wall</a>
+          <a class="dropdown-item" href="bathroomfloor.html">Bathroom Floor</a>
+        </div>
+       </div>
+        <div class="sub-menu-wrap">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarSubMenu5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <img src="images/terrace.svg" alt="" /> Outdoor & Terrace
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarSubMenu5">
+          <a class="dropdown-item" href="outdoorwall.html">Outdoor Wall</a>
+          <a class="dropdown-item" href="outdoorfloor.html">Outdoor Floor</a>
+        </div>
+        </div>
+       </div> 
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="product.html" >
+          Export
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="division.html">Services</a>
+      </li>
+      <li class="nav-item dropdown">      
+        <a class="nav-link dropdown-toggle" href="division.html" data-target="#navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Who We Are
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+          <a class="dropdown-item" href="about-us.html">About Us</a>
+          <a class="dropdown-item" href="leadership.html">Our Leadership</a>
+          <a class="dropdown-item" href="our-office.html">Our Offices</a>
+        </div>
+      </li>
+</ul>
+  <ul class="navbar-nav">
+     <li class="nav-item searchGlobal navbar-form d-none d-lg-block">
+        <a href="#search" title="Search" class="search-form-tigger" data-toggle="search-form"><img class="search-icon" src="images/search.png" alt="Search for website" /></a>
+      </li>
+        
+       <li class="nav-item dropdown globeIcon">
+        <div class="sub-menu-wrap">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Change your region">
+        <span class=" d-lg-none d-inline">Change your region</span><img src="images/globe.png" class="globe-icon d-none d-lg-block" alt="Change your region" />
+        </a>
+        <div class="dropdown-menu region " aria-labelledby="navbarDropdownMenuLink3">
+          <a class="dropdown-item" href="#">Europe - English</a>
+          <a class="dropdown-item" href="#">APAC - Chinese</a>
+          <a class="dropdown-item" href="#">APAC - English</a>
+          <a class="dropdown-item" href="#">Latine America - Portuguese</a>
+          <a class="dropdown-item" href="#">Latine America - English</a>
+          <a class="dropdown-item" href="#">Middle East, Africa & India - English</a>
+          <a class="dropdown-item" href="#">North America- English</a>
+        </div>
+      </div>
+      </li>
+        <li class="nav-item">
+         <a class="nav-link d-block d-lg-none" href="contact.html">Contact us</a>  
+        <button class="btn btn-primary btn-home d-none d-lg-block" type="button" onclick="window.location.href = 'contact.html';">Contact us</button>
+      </li>  
+      
+
+</ul>
+    
+  </div>
+</nav>
+ <div class="search-form-wrapper">
+  <form class="search-form" id="" action="">
+      <div class="input-group">
+         <img src="images/search.png" class="searchInput" alt="Search for website" />
+         <input type="text" name="search" class="search form-control" placeholder="Search the website">
+         <a class="input-group-addon search-arrow" id="basic-addon2"><img src="images/down-arrow.svg" alt="Search" /></a>
+         <span class="input-group-addon search-close " id="basic-addon2"><img src="images/close.svg" alt="close" /> </span>
+      </div>
+   </form>
+</div>
+</div>
+</section>
+
+<!--header ends -->
+<!--Hero starts -->
+<section class="bgBlueGradient">
+ <div class="container-fluid hero bgSkyBlue">   
+    <div class="row">
+           <div class="col-md-12 bgBlueCurve">
+             <h3 class="fade-in text-center">Let us Make Your Home Better</h3>
+            
+           </div> 
+          
+    </div>  
+</div>
+</section>
+<div class="col-12">
+      <a href="#" class="learnmore">LEARN MORE <br/><img src="images/down-arrow.svg" alt="Learn more" /></a>
+  </div>
+<!--hero ends -->
+
+<!-- Modal -->
+<div class="modal fade" id="vidoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog video-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">       
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="images/close-white.svg" alt="close" /> 
+        </button>
+      </div>
+      <div class="modal-body embed-responsive-16by9 ">
+          <iframe src="https://players.brightcove.net/5522450875001/default_default/index.html?videoId=6085198342001" width="100%" height="350" allowfullscreen="" allow="encrypted-media"></iframe>
+        </div>
+    
+    </div>
+  </div>
+</div>
+<!--Content Desciption starts -->
+<section>
+ <div class="container c-description">   
+    <div class="row c-description-wrap">           
+             <h3 class="text-center mx-auto">Explore Modern Tiles Stone & Agency</h3>
+             <p class="c-description-text text-center">
+              Tiles company, also known as a tile manufacturer or distributor, specializes in the production and distribution of various types of tiles used for a wide range of applications. These companies play a crucial role in the construn and interior design industries by providing tiles for residential.
+             </p>
+      </div> 
+</div>
+</section>
+<!--Content Desciption ends -->
+<!--3 icon description starts -->
+<section>
+ <div class="container icon-3-desc">  
+      <div class="row show-hr">
+         <div class="col-4 d-md-flex">
+          <div class="sector-icon icon-idea"><img src="images/idea2.svg" alt="" /></div>
+          <h3 class="icon-heading">30 years’ experience in the Flooring business sectors</h3>
+         </div> 
+         <div class="col-4 d-md-flex">
+          <div class="sector-icon icon-globe"><img src="images/globe-pin.svg" alt="" /></div>
+          <h3 class="icon-heading">Global presence with local knowledge</h3>
+         </div> 
+         <div class="col-4 d-md-flex">
+          <div class="sector-icon icon-chart"><img src="images/pin-chart.svg" alt="" /></div>
+          <h3 class="icon-heading">$1bn revenue with the scale to invest</h3>
+         </div>       
+      </div>
+  </div>
+</section>
+<!--3 icon description ends -->
+
+<!--What we do starts -->
+<div class="arrow-down"></div>
+<section class="bgSkyBlue">
+ <div class="container wwd">   
+    <div class="row">
+           <div class="col-md-6">
+             <h2>WHAT WE DO</h2>
+             <h3>We Provides Best flooring Services For You</h3>
+             <p class="wwd-text textBold">
+               Ishaan tiles is built around delivering a better experience for your customers.
+             </p>
+             <p class="wwd-text ">
+Ishaan tiles is a full-service landscape company. Our established systems allow us to deliver industry-leading landscape
+solutions to commercial and residential clients.
+             </p>
+           </div> 
+           <div class="col-md-6">
+               <div class="row">
+                 <div class="col-12">  
+                  <ul class="wwdList">
+                    <li><a href=""><img src="images/wood-floor.svg" alt="Airport and Travel Enhancement" /> Wood Flooring</a></li>
+                  </ul> 
+                 </div>
+               </div>
+               <div class="row">
+                 <div class="col-12">  
+                  <ul class="wwdList">
+                    <li><a href=""><img src="images/tile-setup.svg" alt="Loyalty and Customer Engagement" /> Tile Setup</a></li>
+                  </ul> 
+                 </div>
+               </div>
+               <div class="row">
+                 <div class="col-12">  
+                  <ul class="wwdList">
+                    <li><a href=""><img src="images/Valuedynamx.svg" alt="Valuedynamx" /> Woodhard</a></li>
+                  </ul> 
+                 </div>
+               </div>
+               <div class="row">
+                 <div class="col-12">  
+                  <ul class="wwdList">
+                    <li><a href=""><img src="images/insurance-protection.svg" alt="Insurance and Protection" /> Tiles Setup</a></li>
+                  </ul> 
+                 </div>
+               </div>
+               <div class="row">
+                 <div class="col-12">  
+                  <ul class="wwdList">
+                    <li><a href=""><img src="images/carpet.svg" alt="Security and Medical Assistance" /> Carpet Removal</a></li>
+                  </ul> 
+                 </div>
+               </div>
+           </div> 
+    </div>
+</div>
+</section>
+<!--What we do ends -->
+<!--Who we work with starts -->
+<section class="bgBlue">
+ <div class="container wwwWrap">   
+    <div class="row">
+           <div class="col-md-6 col-lg-6">
+             <h2>WHO WE WORK WITH</h2>
+             <h3>Trusted by the world’s most ambitious brands</h3>
+           </div> 
+           <div class="col-md-6 col-lg-6">
+               <div class="row">
+                 <div class="col-3 text-center counter icon-img">                    
+                    <img src="images/tiles.svg" alt="Banks" />
+                    <h2 class="timer count-title count-number" data-from="0" data-to="1400" data-speed="1500"></h2>
+                    <p class="count-text">Design</p>
+                 </div>
+                  <div class="col-3 text-center counter icon-img">
+                     <img src="images/color.svg" alt="Airlines" />
+                      <h2 class="timer count-title count-number" data-from="0" data-to="390" data-speed="1500"></h2>
+                    <p class="count-text">Colors</p>
+                 </div>
+                  <div class="col-3 text-center counter icon-img">
+                     <img src="images/partner.svg" alt="Hotel Groups" />                     
+                     <h2 class="timer count-title count-number" data-from="0" data-to="110" data-speed="1500"></h2>
+                     <p class="count-text">Partners</p>
+                 </div>
+                  <div class="col-3 text-center counter icon-img">
+                     <img src="images/clients.svg" alt="Consumers" />                    
+                      <h2 class="count-title">Happy</h2>
+                      <p class="count-text">Clients</p>
+                 </div>
+               </div>
+           </div> 
+    </div>
+</div>
+</section>
+<!--Who we work with ends -->
+<!--Latest Insight starts -->
+<section class="bgSkyBlue">
+ <div class="container latest-insight">
+    <h2>Products  <a href="#" class="labelBtn float-right py-3 d-none d-lg-block">SEE ALL</a></h2>
+    <div class="row">
+        <div class="col-md-12 px-0">
+            <div id="insight-slider" class="owl-carousel">
+                <div class="insight-slide">
+                    <div class="post-img">
+                        <img src="images/insight.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-title">
+                            OAK Flooring
+                        </div>
+                        <p class="post-description">
+                          Laminate flooring is a type of synthetic flooring that designed like hardwood, tile, or other natural materials.
+                        </p>
+                        <a href="#" class="labelBtn">read more</a>
+                    </div>
+                </div>
+ 
+                <div class="insight-slide">
+                    <div class="post-img">
+                        <img src="images/insight2.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-title">
+                            Industrial Flooring
+                        </div>
+                        <p class="post-description">
+                          Laminate flooring is a type of synthetic flooring that designed like hardwood, tile, or other natural materials. 
+                        </p>
+                        <a href="#" class="labelBtn">read more</a>
+                    </div>
+                </div>
+                
+                <div class="insight-slide">
+                    <div class="post-img">
+                        <img src="images/insight3.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-title">
+                            Tiling & concrete
+                        </div>
+                        <p class="post-description">
+                            Laminate flooring is a type of synthetic flooring that designed like hardwood, tile, or other natural materials.                             
+                        </p>
+                        <a href="#" class="labelBtn">read more</a>
+                    </div>
+                </div>
+                
+              
+            </div>
+        </div>
+    </div>
+    <div class="d-block d-sm-none text-center mx-auto p-t-30">
+      <a href="#" class="btn btn-primary">SEE ALL</a>
+    </div>
+</div>
+</section>
+
+<!--Latest Insight ends -->
+<!--footer starts -->
+<section class="bgBlue">
+   <footer class="container gotham-medium">
+      <div class="footerLinks">
+        <ul>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms of Use</a></li>
+          <li><a href="">Cookie Policy</a></li>
+          <li><a href="">Legal Statements</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Corporate Social Responsibility</a></li>
+        </ul>
+      </div>
+
+      <div class="social-wrap">
+        <a href="https://twitter.com" target="_blank"> 
+          <span class="hidden">Twitter</span> <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank"> 
+          <span class="hidden">Linkedin</span> <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="copyrights">
+        © 2024 Ishaan Tiles. All rights are reserved.
+      </div>
+
+  </footer>
+</section>
+
+<!--footer ends -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>      
+    <script src="js/popper.min.js"></script>  
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+     <script src="js/wwww.js"></script>
+     <script src="js/search.js"></script>
+    <script src="js/latest-insight.js"></script>
+    <script src="js/navigation.js"></script>
+  </body>
+</html>
